@@ -4,8 +4,8 @@ build-backend = 'poetry.core.masonry.api'
 
 [tool.metadata]
 display_name  = 'reunion 2024'
-package_name  = 'solution-reunion-2024-github'
-lib_name      = 'solution_reunion_2024_github'
+package_name  = 'solution-reunion-2024'
+lib_name      = 'solution_reunion_2024'
 
 [tool.poetry]
 name        = 'solution-reunion-2024'
