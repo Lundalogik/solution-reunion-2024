@@ -2424,6 +2424,25 @@ url = "https://pypi.lime.tech/simple"
 reference = "lime"
 
 [[package]]
+name = "limepkg-maps"
+version = "4.6.0"
+description = "Lime CRM package"
+optional = false
+python-versions = ">=3.7,<4.0"
+files = [
+    {file = "limepkg_maps-4.6.0-py3-none-any.whl", hash = "sha256:7e7c498535ba3273adf2b17bd3dbd59bcc7efbc43cd3cc48a03e2bf7b3a2ff4b"},
+]
+
+[package.dependencies]
+lime-crm = ">=2.528.0,<3.0.0"
+limepkg-addon-installer = ">=5.2.1,<6.0.0"
+
+[package.source]
+type = "legacy"
+url = "https://pypi.lime.tech/simple"
+reference = "lime"
+
+[[package]]
 name = "limepkg-option-visualizer"
 version = "2.4.0"
 description = "Lime CRM package"
@@ -4814,4 +4833,4 @@ reference = "lime"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "c89e30936609958d5469a7845265b04d3132dcdc4883d0af668cbbe973db1727"
+content-hash = "5609a7d3ec0d46ed11ee9c652d946a70d973038d298a04f4b683731a83dd13d5"

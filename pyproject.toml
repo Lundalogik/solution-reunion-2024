@@ -31,6 +31,7 @@ addon-infotiles = '^4.9.2'
 limepkg-gdpr = '^3.0.1'
 limepkg-option-visualizer = '^2.1.0'
 limepkg-demo-date-mover = '^1.1.1'
+limepkg-maps = "^4.6.0"
 
 [tool.poetry.group.dev.dependencies]
 autopep8 = '>=1'
